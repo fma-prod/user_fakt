@@ -11,7 +11,7 @@ We will provide soon a fix
 5. execute 
     - pip install -r requirements.txt
 6. Launch the server using this command
-    - python -m aiohttp.web -P 8080 aiouser:app_factory
+    - python -m aiohttp.web -P 8080 aio_user:app_factory
 
 
 List of reachable services:
