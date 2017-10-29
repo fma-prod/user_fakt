@@ -3,13 +3,15 @@
 We will provide soon a fix
 
 ####  In between following steps should allow you to launch the server and test this project  
-1. We then propose to download the project from git the repository.
+1. We then propose to download the project from git the repository.  
+   - git clone git@github.com:fma-prod/user_fakt.git 
 2. To create a virtual environment based on 3.6
-3. Work on that virtual environment just created. 
-4. change directory to folder where git repository has been downloaded.
-5. execute pip install -r requirements.txt
-6. execute the server using this command
-    python -m aiohttp.web -P 8080 aiouser:app_factory
+3. Activate that virtual environment just created.
+4. Change directory to folder where git repository has been downloaded.
+5. execute 
+    - pip install -r requirements.txt
+6. Launch the server using this command
+    - python -m aiohttp.web -P 8080 aiouser:app_factory
 
 
 List of reachable services:
