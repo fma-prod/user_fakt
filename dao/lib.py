@@ -17,10 +17,10 @@ async def build_dict(names, cursor):
 
 
 # not used
-async def build_dict_ex(names, cursor):
-    return [dict(zip(names, row)) async for row in AsyncIteratorExecutor(browse_cursor(cursor))]
-
-# not used
-async def browse_cursor(cursor):
-    for row in cursor:
-        await row
+# async def build_dict_ex(names, cursor):
+#     return [dict(zip(names, row)) async for row in AsyncIteratorExecutor(browse_cursor(cursor))]
+#
+# # not used
+# async def browse_cursor(cursor):
+#     for row in cursor:
+#         await row
